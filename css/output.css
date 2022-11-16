@@ -1,0 +1,256 @@
+.img-url-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    margin: 4px;
+}
+
+.topSection {
+    margin: 8px !important;
+    display: inherit;
+}
+
+body {
+    background: #e0e0e0 !important;
+}
+
+#example_filter {
+    margin-bottom: 10px;
+}
+
+#dropdownBox {
+    min-width: 120px;
+    min-height: 40px;
+    padding: 8px;
+    font-family: -webkit-body;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+    background: #f9f9f9;
+    font-size: 18px;
+}
+
+#download {
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #207245;
+    border-color: #207245;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px #19482e;
+    min-width: 120px;
+    min-height: 40px;
+    margin-left: 8px;
+}
+
+#scrap {
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #6c27ba;
+    border-color: #6c27ba;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px #6c27ba;
+    min-width: 120px;
+    min-height: 40px;
+    margin-left: 8px;
+}
+
+#deleteList {
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #ad404a;
+    border-color: #ad404a;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px #19482e;
+    min-width: 120px;
+    min-height: 40px;
+    margin-left: 8px;
+}
+
+thead>tr {
+    background: #217346;
+    color: #fff;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+th,
+td {
+    border: 1px dotted #21734629;
+}
+
+.s_no {
+    max-width: 40px !important;
+}
+
+.name {
+    min-width: 150px !important;
+}
+
+.address {
+    min-width: 220px !important;
+}
+
+.phone {
+    max-width: 100px !important;
+}
+
+#setting {
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #3a50b9;
+    border-color: #3a50b9;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px #19482e;
+    min-width: 120px;
+    min-height: 40px;
+    margin-left: 8px;
+}
+
+#dropdownBox {
+    float: left;
+}
+
+.phone,
+.bussinesstype,
+.rating,
+.review {
+    white-space: nowrap;
+}
+
+button {
+    cursor: pointer;
+}
+
+.img-url {
+    width: 200px;
+}
+
+
+
+/* modal */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    -webkit-animation-name: fadeIn;
+    /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close-show-msg-send-status {
+    color: #fafafa;
+    float: right;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.close-show-msg-send-status:hover,
+.close-show-msg-send-status:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 10px 16px;
+    background-color: rgb(58, 79, 175);
+    color: #f0f0f0;
+    font-weight: bold;
+    box-shadow: 0px 1px 5px #838181;
+    font-family: 'sans-serif';
+}
+
+.modal-body {
+    padding: 2px 16px;
+    margin-top: 12px;
+}
+
+.close-show-blur-section {
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {
+        bottom: -1000px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@keyframes slideIn {
+    from {
+        bottom: -1000px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+

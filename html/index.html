@@ -1,0 +1,46 @@
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/main.css">
+
+
+		<!-- bootstrap file -->
+		<script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="../js/popper.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="container-fluid dataScrapSection" style="margin-top: 20px;">
+			<h5 class="heading">Enter Keywords
+				<a href="software.html" target="_blank" style="font-size: 15px; font-weight: bold; text-decoration: none; letter-spacing: 0.5px;" id="advanceSearch">More Tools >> </a>				
+			</h5>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend" style="box-shadow: 0 0 1px rgb(0 0 0 / 50%);">
+							<span class="input-group-text upload-btn" style="cursor: pointer;">Upload File</span>
+							<input type="file" style="display: none;" class="upload-file" accept=".txt">
+						</div>
+						<input type="text" class="keyword form-control" placeholder="Enter Multiple Keyword Seprate By ( , )" autocomplete="off" spellcheck="false" value>
+					</div>
+				</div>
+
+				<div class="col-md-12 button-section">
+					<button class="btn btn-primary" id="scrap">Collect Data </button>
+					<a href="register.html" class="btn btn-primary" id="register">Register </a>
+				</div>
+				<div class="col-md-12 button-section">
+					<a href="login.html" id="login">Already Registered? </a>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+
+		<script type="text/javascript" src="../js/loader.js"></script>
+		<script type="text/javascript" src="../js/popup.js"></script>
+	</body>
+</html>

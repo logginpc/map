@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Goyral Map Setting</title>
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/icon.css" rel="stylesheet">
+      <link href="../css/offcanvas.css" rel="stylesheet">
+      <link href="../css/setting.css" rel="stylesheet">
+   </head>
+   <body class="bg-light">
+		<!-- Modal HTML -->
+		<div id="myModal" class="modal fade">
+			<div class="modal-dialog modal-confirm">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<div class="icon-box">
+							<i class="material-icons">&#xE876;</i>
+						</div>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body text-center">
+						<h4>Update</h4>
+						<p>If you like or didn't like Plz Rate Us. </p>
+						<a href="https://chrome.google.com/webstore/detail/goyral-map-extractor/jooahgmbabifggckhbgdjdkpabdnphon" style="text-decoration: none;">
+							<img class="mr-3" src="../images/star_border_black_24dp.svg" alt="" width="24" height="24" style="margin-right:0px!important;">
+							<img class="mr-3" src="../images/star_border_black_24dp.svg" alt="" width="24" height="24" style="margin-right:0px!important;">
+							<img class="mr-3" src="../images/star_border_black_24dp.svg" alt="" width="24" height="24" style="margin-right:0px!important;">
+							<img class="mr-3" src="../images/star_border_black_24dp.svg" alt="" width="24" height="24" style="margin-right:0px!important;">
+							<img class="mr-3" src="../images/star_border_black_24dp.svg" alt="" width="24" height="24" style="margin-right:0px!important;">
+							<h4 style="color: #434e65;">Rate/Review</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+      <main role="main" class="container">
+         <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow header">
+            <img class="mr-3" src="../images/icon_128.png" alt="" width="48" height="48" style="background: #fff; padding: 4px; border-radius: 5px;">
+            <div class="lh-100">
+               <h6 class="mb-0 text-white lh-100">Goyral Map Extractor</h6>
+               <small>Setting</small>
+            </div>
+			<a href="#myModal" class="text-white btn btn-primary ml-32p update trigger-btn" data-toggle="modal">Update Setting</a>
+         </div>
+         <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Setting</h6>
+            <!-- <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-2 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark fl">Extract Email Background</strong>
+                  <label class="switch ml-5">
+	                  <input type="checkbox" class="bg-Email">
+	                  <span class="slider round"></span>
+                  </label>
+               </p>
+            </div> -->
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-2 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark">Export Data Format</strong>
+               <div class="form-check">
+                  <label class="form-check-label cur-p">
+                  	<input class="form-check-input " type="radio" name="export" checked  value="csv"/> CSV
+                  </label>
+               </div>
+               <div class="form-check" style="margin-left: 15px;">
+                  <label class="form-check-label cur-p">
+                  	<input class="form-check-input " type="radio" name="export"  value="xlsx"/> XLSX
+                  </label>
+               </div>
+               <div class="form-check ml-5" style="display:none;">
+                  <label class="form-check-label cur-p">
+                  	<input class="form-check-input" type="radio" name="export" value="xlsx" /> XLSX(EXCEL)
+                  </label>
+               </div>
+               </p>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-2 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark fl">Remove Duplicate Data</strong>
+                  <label class="switch ml-5">
+	                  <input type="checkbox" class="removeDuplicate">
+	                  <span class="slider round"></span>
+                  </label>
+	               <div class="form-group form-check ml-5">
+	                  <label class="form-check-label cur-p">
+	                  	<input type="checkbox" class="form-check-input removeDuplicateAddress" disabled> Address
+	                  </label>
+	               </div>
+	               <div class="form-group form-check ml-5">
+	                  <label class="form-check-label cur-p">
+	                  	<input type="checkbox" class="form-check-input removeDuplicateEmail" disabled> Email
+	                  </label>
+	               </div>
+	               <div class="form-group form-check ml-5">
+	                  <label class="form-check-label cur-p">
+	                  	<input type="checkbox" class="form-check-input removeDuplicatePhone" disabled> Phone
+	                  </label>
+	               </div>
+               </p>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-2 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark">Select Extracting Column</strong>
+                  <span class="form-group form-check">
+	                  <label class="form-check-label cur-p ml-32p">
+	                  	<input type="checkbox" class="form-check-input cur-p" checked disabled> Name
+	                  </label>
+	                  <label class="form-check-label cur-p ml-32p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxAdd" checked> Address
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxPh" checked > Phone
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxMail" > Email
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxWeb" checked> Website
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxImgUrl" checked> Image Url
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxBType" checked> Business Type
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxRev" checked> Review
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxRate" checked> Rating
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxLat" > Latitude
+	                  </label>
+	                  <label class="form-check-label ml-32p cur-p">
+	                  	<input type="checkbox" class="form-check-input cur-p extraxLong" > Longitude
+	                  </label>
+                  </span>
+               </p>
+            </div>
+         </div>
+         <!-- <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Remaining Extraction</h6>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="remainExtrxSelect" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Keyword</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class='dropdown-item'>There is no data</a>
+					</div>
+               </div>
+               <button type="button" class="text-white btn btn-primary ml-32p remainExtrxBtn"> Collect Data
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                  </svg>
+               </button>
+            </div>
+         </div> -->
+         <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark">Export Multiple Format</strong>
+               </p>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark">Grab Image Url</strong>
+               </p>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <strong class="d-block text-gray-dark">Latitude & Lontitude</strong>
+               </p>
+            </div>
+         </div>
+         <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <div class="d-flex justify-content-between align-items-center w-100" style="margin-bottom: 8px;">
+                     <strong class="text-gray-dark">How to use</strong>
+                  </div>
+				  <span style="line-height: 20px;" class="d-block lts-5 lh-125">Check out Video link. Given top on software</span>
+                  <span style="line-height: 20px;" class="d-block lts-5 lh-125">Extract only those column which you need, It will speed up your software..</span>
+				  <span style="line-height: 20px;" class="d-block lts-5 lh-125"> Note:- if you doesn't need email don't scrap it will take much more time to extract.</span>
+               </div>
+            </div>
+         </div>
+         <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Connect With Us</h6>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                     <strong class="text-gray-dark">Facebook</strong>
+                     <a target="_blank" href="https://www.facebook.com/Goyral/">Follow</a>
+                  </div>
+                  <span class="d-block">@Goyral</span>
+               </div>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                     <strong class="text-gray-dark">Website</strong>
+                     <a href="https://goyral.com/" target="_blank">Visit</a>
+                  </div>
+                  <span class="d-block">goyral.com</span>
+               </div>
+            </div>
+            <div class="media text-muted pt-3">
+               <img data-src="../js/holder.min.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+               <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                     <strong class="text-gray-dark">Other Software</strong>
+                     <a href="https://chrome.google.com/webstore/search/goyral?utm_source=chrome-ntp-icon&_category=extensions" target="_blank">Visit</a>
+                  </div>
+                  <span class="d-block">Marketing, Sales, Data Extract and other Tools</span>
+               </div>
+            </div>
+         </div>
+      </main>
+
+
+      <script src="../js/jquery-3.3.1.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/holder.min.js"></script>
+      <script src="../js/offcanvas.js"></script>
+      <script src="../js/authenticate.js"></script>
+
+   </body>
+</html>
