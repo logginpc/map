@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "Goyral Map Extractor",
-	"description": "Goyral Google Map Data Extractor tool is a lightweight and powerful Google Maps software for lead generation.",
-	"version": "2.2.16",
+	"name": "Map Extractor",
+	"description": "Map Data Extractor tool",
+	"version": "1.0",
 	"permissions": [
 		"tabs",		
 		"storage",
@@ -37,7 +37,7 @@
 
 		},
 		"default_popup": "html/index.html",
-		"default_title": "Goyral Map Extractor"
+		"default_title": "Map Extractor"
 	},
 	"content_scripts": [{
 		"js": [ "js/progress.js", "js/content.js" ],
